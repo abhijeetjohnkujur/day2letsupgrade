@@ -8,3 +8,36 @@
     border-radius: 20px;
     padding: 1em;
 }
+
+.title
+{
+    font-size: 1.8vw;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 200;
+}
+
+.subtitle
+{
+    font-size: 0.8vw;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 100;
+
+}
+
+.desc
+{
+    font-size: 0.9vw;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.card-image
+{
+    width: 90%;
+}
+
+img
+{
+    width: 100%;
+}
