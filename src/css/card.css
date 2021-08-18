@@ -1,0 +1,10 @@
+
+.card-container
+{
+    background-color:  hsla(150,40%,50%,0.4);
+    width: 25vw;
+    margin-top: 2em;
+    margin-left: 1em;
+    border-radius: 20px;
+    padding: 1em;
+}
