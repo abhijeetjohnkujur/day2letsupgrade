@@ -9,7 +9,10 @@ function App() {
  
   return (
     <div className="container">
+      <div className="card-head-container"> <h1 className="card-head">Cards</h1></div>
+     
     <div className="App">
+      
       {
         cardDetails.map((data,index) => (
 

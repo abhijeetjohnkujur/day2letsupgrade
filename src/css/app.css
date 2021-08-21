@@ -1,13 +1,40 @@
+
 .App
 {
     display: flex;
     flex-wrap: wrap;
+   /*background-color: aqua;
+   border: 2px solid black; */
+   justify-content: space-between;
+   margin: 2em;
+   padding: 2em;
+}
+
+.card-head-container
+{
    
-}
-
-.container {
-
+    padding: 2em;
     display: grid;
-    align-items: center;
-    padding-left: 15em;
+    place-items: center;
 }
+.card-head{
+    text-align: center;
+    font-size: 2vw;
+    font-family: helvetica, arial, sans-serif;
+   /* background-color: lightgreen; */
+    width: 10vw;
+    padding: 0.2em;
+    border-radius: 40px;
+    box-shadow: 1px 1px 8px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 1px 8px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 8px -2px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 1024px) {
+   .App
+   {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+  }

@@ -7,5 +7,9 @@
 
 body
 {
-    background-color: hsla(220,90%,80%,0.2)
+ 
+    background: #D3CCE3; 
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  
+background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+
 }
